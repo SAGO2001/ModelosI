@@ -24,11 +24,17 @@
   <li>
     Builder
     <p>Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso de construcción pueda crear       diferentes representaciones.</p>
-    <img src="/Imagenes/Builder/builder.gif" alt="Builder" width="650" height="500">
+    <img src="/Imagenes/Builder/builder.gif" alt="Builder" width="450" height="300">
     <h4>Implementacion</h4>
     <img src="/Imagenes/Builder/EjemploBuilder.png" alt="Ejemplo Builder" width="450" height="300">
   </li>
-  <li>Factory Method</li>
+  <li>
+    Factory Method
+    <p>Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos.</p>
+    <img src="/Imagenes/FactoryMethod/FactoryMethod.gif" alt="Factory Method" width="600" height="300">
+    <h4>Implementacion</h4>
+    <img src="/Imagenes/FactoryMethod/EjemploFactoryMethod.jpg" alt="Ejemplo Factory Method" width="750" height="300">
+  </li>
   <li>Protoype</li>
   <li>Singleton</li>
 </ul>
