@@ -24,9 +24,9 @@
   <li>
     Builder
     <p>Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso de construcción pueda crear       diferentes representaciones.</p>
-    <img src="/Imagenes/AbstractFactory/AbstractFactory.png" alt="Abstract Factory" width="650" height="500">
+    <img src="/Imagenes/Builder/builder.gif" alt="Builder" width="650" height="500">
     <h4>Implementacion</h4>
-    <img src="/Imagenes/AbstractFactory/FabricaDiscos.png" alt="Fabrica Discos" width="450" height="300">
+    <img src="/Imagenes/Builder/EjemploBuilder.png" alt="Ejemplo Builder" width="450" height="300">
   </li>
   <li>Factory Method</li>
   <li>Protoype</li>
