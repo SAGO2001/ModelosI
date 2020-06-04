@@ -12,6 +12,7 @@
   <li>
     Abstract Factory
     <p>Proporciona una interfaz para crear familias de objetos o que dependen entre sí, sin especificar sus clases concretas.</p>
+    ![Abstract Factory](https://github.com/AndresBaquero-00/ModelosI/blob/master/Imagenes/AbstractFactory/AbstractFactory.png)
     
   </li>
   <li>Builder</li>
