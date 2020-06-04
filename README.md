@@ -5,3 +5,17 @@
   <li>Andrés Leonardo Baquero Hernandez</li>
   <li>Santiago Andrés Gordillo Piñeros</li>
 </ul>
+
+<h1>Patrones Creacionales</h1>
+
+<ul>
+  <li>
+    Abstract Factory
+    <p>Proporciona una interfaz para crear familias de objetos o que dependen entre sí, sin especificar sus clases concretas.</p>
+    
+  </li>
+  <li>Builder</li>
+  <li>Factory Method</li>
+  <li>Protoype</li>
+  <li>Singleton</li>
+</ul>
