@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Banda Aleatoria</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static',filename='index.css') }}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: black;">
+        <form method="post" action="/">
+            <div class="container">
+                <div class="jumbotron pd-2">
+                    <div class="mx-auto" style="width: 500px;">
+                        <h1 class="display-4">Banda Aleatoria</h1>
+                        <button class="btn btn-primary" formaction="/accion/preparar">Preparar banda</button>
+                        <button class="btn btn-primary" formaction="/accion/tocar">Tocar banda</button>
+                        <button class="btn btn-primary" formaction="/accion/generar">Generar nueva banda</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="container">
+            {% if lon == 0 %}
+                <div class="jumbotron pd-4" style="background-color: white;
+                margin-left: 15%;
+                margin-right: 15%;">
+                    <div class="mx-auto" style="width: 500px;">
+                        <h2>{{ texto[0] }}</h2>
+                    </div>
+                </div>
+            {% else %}
+                {% for i in range(lon) %}
+                    <div class="jumbotron pd-4" style="background-color: white;
+                                                        margin-left: 15%;
+                                                        margin-right: 15%;">
+                        <div class="mx-auto" style="width: 500px;">
+                            <img src="{{url_for('static', filename=imagen[i])}}" >
+                            <h2>{{ texto[i] }}</h2>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </body>
+</html>
