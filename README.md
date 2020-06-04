@@ -12,10 +12,22 @@
   <li>
     Abstract Factory
     <p>Proporciona una interfaz para crear familias de objetos o que dependen entre sí, sin especificar sus clases concretas.</p>
-    ![Abstract Factory](/Imagenes/AbstractFactory/AbstractFactory.png?raw=true "AbstractFactory")
-    
+    <img src="/Imagenes/AbstractFactory/AbstractFactory.png" alt="Abstract Factory" width="650" height="500">
+    <h4>Implementacion</h4>
+    <ul>
+      <li>Fabricas</li>
+      <img src="/Imagenes/AbstractFactory/FabricaDiscos.png" alt="Fabrica Discos" width="450" height="300">
+      <li>Productos</li>
+      <img src="/Imagenes/AbstractFactory/Discos.png" alt="Discos" width="450" height="300">
+    </ul>
   </li>
-  <li>Builder</li>
+  <li>
+    Builder
+    <p>Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso de construcción pueda crear       diferentes representaciones.</p>
+    <img src="/Imagenes/AbstractFactory/AbstractFactory.png" alt="Abstract Factory" width="650" height="500">
+    <h4>Implementacion</h4>
+    <img src="/Imagenes/AbstractFactory/FabricaDiscos.png" alt="Fabrica Discos" width="450" height="300">
+  </li>
   <li>Factory Method</li>
   <li>Protoype</li>
   <li>Singleton</li>
