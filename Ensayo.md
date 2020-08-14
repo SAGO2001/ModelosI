@@ -55,3 +55,57 @@
 - Hay sólo una forma segura de prevenir este antipatrón: Asegurarse que las buenas prácticas de arquitectura precedan al desarrollo de código de producción. Esta arquitectura debe ser resguardada por un proceso de gestión que asegure la conformidad arquitectónica y se adapte "la misión" (requisitos cambiantes).
 ### Ejemplo:
 ![](https://3.bp.blogspot.com/-N_G4OaooUa0/UCG87JrI0FI/AAAAAAAAA40/FAfwNS6hxlA/s1600/Lava_Flow_Codigo_Ejemplo.jpg)
+
+# Titulo
+## segtit (Seg titulo)
+
+ TEXSEGASDGHFJAWHKUFJENGL(Texto normal)
+ 
+- 2 (enumerar)
+  - (subindices - * +)
+  
+> referencias
+
+*fdfhdsfh*
+
+_csdhsh_
+
+**sggg**
+
+(Espacio entre lineas es salto de lineas)
+ 
+***jksh***
+
+[Prueba enlace](https://www.youtube.com/?gl=CO)
+
+![texto imagen](ruta de la imagen)
+
+<code>
+ /**
+ * 
+ * @author Empresa Ficticia
+ *
+ */
+public class Antigua {
+	
+	/**
+	 * Cuando me encontré este método no tenía javadoc.
+	 * Creo que lo hizo Pedro, pero no estoy muy seguro, además ya no está en la empresa.
+	 * No se muy bien si lo estamos utilizando, pero parece ser un método importante ya que tiene muchas
+	 * líneas de código así que es mejor que nadie lo toque.
+	 * El nombre tampoco ayuda a entenderlo
+	 */
+	public void hacerAlgo(){
+		// Infinitas líneas de código
+		// ....
+		// ....
+		// ....
+		// ....
+		
+		
+		// ....
+		// FIN
+	}
+
+}
+</code>
