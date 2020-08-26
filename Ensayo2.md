@@ -35,6 +35,8 @@ Proporciona un modo de acceder secuencialmente a los elementos de un objeto agre
 
 Este patrón lo implementamos en la clase Iterador, aquí creamos los métodos "primero, siguiente, hayMas y actual", los cuales nos dan el primer elemento del arreglo de objeto, el siguiente objeto en el arreglo, si hay más objetos y el objeo actual respectivamente, por los productos correspondientes
 
+![](https://github.com/SAGO2001/ModelosI/blob/master/Iterador.png?raw=true)
+
 - Facade:
 
 Proporciona una interfaz unificada para un conjunto de interfaces de un subsistema. Define una interfaz de alto nivel que hace que el subsistema se más fácil de usar.
