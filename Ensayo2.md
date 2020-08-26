@@ -45,9 +45,11 @@ Este patrón lo implementamos en la clase "Juego" ya que en esta clase importamo
 
 ![](https://github.com/SAGO2001/ModelosI/blob/master/Facade1.png?raw=true)
 
-## ¿Por qué no usamos otros?
+## ¿Por qué no usamos otros patrones?
 
-- 
+- Los 5 patrones implementamos son suficientes para crear todas las funcionalidades del programa
+
+- Creamos los clientes, las cervezas, al cantinero y todas las interacciones entre ellos 3
 
 ## Manual:
 
