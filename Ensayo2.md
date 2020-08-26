@@ -28,6 +28,7 @@ Especifica los tipos de objetos a crear por medio de una instancia prototípica,
 Este patrón lo implementamos en las clases "Ceveza y Cliente" por medio de un metodo llamado "clone", con este clonamos el producto y lo guardamos en su arreglo correspondiente.
 
 ![](https://github.com/SAGO2001/ModelosI/blob/master/Prototype.png?raw=true)
+
 - Iterator:
 
 Proporciona un modo de acceder secuencialmente a los elementos de un objeto agregado sin exponer su representación interna.
@@ -40,7 +41,7 @@ Proporciona una interfaz unificada para un conjunto de interfaces de un subsiste
 
 Este patrón lo implementamos en la clase "Juego" ya que en esta clase importamos todas las clases que son necesarias para el funcionamiento del juego. Después en la clase "bar" importamos la clase "Juego" para ya crear la lógica del programa
 
-![](https://github.com/SAGO2001/ModelosI/blob/master/Facade.png?raw=true)
+![](https://github.com/SAGO2001/ModelosI/blob/master/Facade1.png?raw=true)
 
 ## ¿Por qué no usamos otros?
 
